@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gioithieuphim.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+ <div class="thanh-bar-o-ngoai">
+  <button class="menu-toggle" onclick="toggleSidebar()"><i class="fas fa-bars"></i></button>
+  <div class="overlay" id="overlay" onclick="closeSidebar()"></div>
+  <div class="sidebar" id="sidebar">
+    <button class="close-btn" onclick="closeSidebar()"><i class="fa-solid fa-xmark"></i></button>
+<ul class="sidebar-menu">
+    <li>Trang chủ</li>
+
+    <li onclick="toggleSubmenu('genre')">
+      Thể loại<span class="plus" id="plus-genre">+</span>
+    </li>
+    <ul class="submenu" id="submenu-genre">
+      <li>Hành động</li>
+      <li>Tình cảm</li>
+      <li>Hoạt hình</li>
+    </ul>
+
+    <li onclick="toggleSubmenu('country')">
+      Quốc gia <span class="plus" id="plus-country">+</span>
+    </li>
+    <ul class="submenu" id="submenu-country">
+      <li>Việt Nam</li>
+      <li>Hàn Quốc</li>
+      <li>Mỹ</li>
+    </ul>
+
+    <li>Phim Bộ</li>
+    <li>Phim Lẻ</li>
+    <li>Phim Chiếu Rạp</li>
+    <li><a href="#"><i class="fas fa-right-to-bracket"></i> Đăng nhập</a></li>
+    <li><a href="#"><i class="fas fa-user-plus"></i> Đăng ký</a></li>
+  </ul>
+</div>
+<div class="topbar">
+        <div class="logo">NHÓM 5 FILM<br><span class="tieude">Phim Online</span></div>
+         <button class="search-toggle" onclick="toggleSearchBar()">
+               <i class="fas fa-search"></i>
+          </button>
+        <div class="search-bar" id="searchBar">
+            <label class="timkiem" for="search"><i class="fas fa-search"></i></label>
+          <input id="search" type="text" placeholder="Nhập tên phim bạn muốn tìm kiếm...">
+        </div>
+        <div class="user-actions">
+          <a href="#"><i class="fas fa-right-to-bracket"></i> Đăng nhập</a>
+          <a href="#"><i class="fas fa-user-plus"></i> Đăng ký</a>
+        </div>
+</div>
+</div>
+<div class="menu">
+  <a href="#">TRANG CHỦ</a>
+
+  <div class="dropdown">
+    <a href="#">THỂ LOẠI▼</a>
+    <div class="dropdown-content">
+      <a href="#">Hành Động</a>
+      <a href="#">Tình cảm</a>
+      <a href="#">Hoạt hình</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <a href="#">QUỐC GIA▼</a>
+    <div class="dropdown-content">
+      <a href="#">Việt Nam</a>
+      <a href="#">Hàn Quốc</a>
+      <a href="#">Mỹ</a>
+    </div>
+  </div>
+
+  <a href="#">PHIM BỘ</a>
+  <a href="#">PHIM LẺ</a>
+  <a href="#">PHIM CHIẾU RẠP</a>
+</div>
+<script src="gioithieuphim.js"></script>
+<div class="headerlink">
+  <span class="headerlink-item"><i class="fa fa-home"></i> <a href="#">Trang chủ</a></span> /
+  <span class="headerlink-item"><a href="#">Giới thiệu</a></span> /
+  <span class="headerlink-current">Điều kì diệu ở phòng giam số 7</span>
+</div>
+      <div class="container">
+  <div class="movie">
+    <div class="boxall">
+      <div class="poster-wrapper">
+            <img src="https://i.pinimg.com/736x/dc/32/1a/dc321af067720a4ec4306f5c94e93e97.jpg" alt="matbiec">
+            <a href="xemphonggiam7.html" class="watch-button">Xem phim</a>
+            </div>
+            <div class="box">
+             <h3>Điều kì diệu ở phòng giam số 7</h3>
+                <p>Thể loại: Hài hước, Tâm  lý</p>
+                <p>Quốc gia: Hàn Quốc </p>
+                <p>Năm phát hành: 2019</p>
+                <p>Thời lượng: 2 tiếng 7 phút</p>
+            <div class="mieu_ta">
+                <br>
+                <div>Điều kì diệu ở phòng giam số 7 (tiếng Hàn: 7 번방 의 선물; RR: 7beonbangui Seonmul; lit. "Một món quà từ phòng giam số 7") là một bộ phim Hàn Quốc năm 2013 với sự tham gia của Ryu Seung-ryong, Kal So-won và Park Shin-hye. Bộ phim là một câu chuyện ấm áp dành cho gia đình, kể về một người đàn ông tâm thần không ổn định bị kết tội oan là sát nhân và phải ở tù, anh ta đã xây dựng tình bạn với những tên tội phạm vô cảm trong phòng giam của ông, và ngược lại họ giúp ông gặp lại con gái mình bằng cách lén lút đưa cô bé vào tù.</div>
+                <br>
+                <div>Diễn viên: Ryu Seung-ryong, Kal So-won, Park Shin-hye</div>
+                <div>Đạo diễn: 	Lee Hwan-kyung</div>
+                <div>Quốc gia: Korea</div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
+    
